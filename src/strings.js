@@ -3,11 +3,11 @@ const sayHello = string => {
 };
 
 const uppercase = string => {
-  return string.toUpperCase;
+  return string.toUpperCase();
 };
 
 const lowercase = string => {
-  // your code here
+  return string.toLowerCase();
 };
 
 const countCharacters = string => {

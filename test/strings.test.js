@@ -16,13 +16,13 @@ describe("sayHello", () => {
     expect(sayHello("MCR Codes")).toEqual("Hello, MCR Codes!");
   });
 
-  xit('returns "Hello fsghjdfkhgf!" when passed "fsghjdfkhgf"', () => {
+  it('returns "Hello fsghjdfkhgf!" when passed "fsghjdfkhgf"', () => {
     expect(sayHello("fsghjdfkhgf")).toEqual("Hello, fsghjdfkhgf!");
   });
 });
 
 describe("uppercase", () => {
-  xit("returns the uppercased string", () => {
+  it("returns the uppercased string", () => {
     expect(uppercase("abc")).toEqual("ABC");
     expect(uppercase("def")).toEqual("DEF");
     expect(uppercase("ghi")).toEqual("GHI");
@@ -30,7 +30,7 @@ describe("uppercase", () => {
 });
 
 describe("lowercase", () => {
-  xit("returns the lowercased string", () => {
+  it("returns the lowercased string", () => {
     expect(lowercase("ABC")).toEqual("abc");
     expect(lowercase("DEF")).toEqual("def");
     expect(lowercase("GHI")).toEqual("ghi");
