@@ -1,14 +1,8 @@
-const negate = a => {
-  return !a;
-};
+const negate = a => !a;
 
-const both = (a, b) => {
-  return (a && b);
-};
+const both = (a, b) =>  a && b;
 
-const either = (a, b) => {
-  // your code here
-};
+const either = (a, b) => a || b;
 
 const none = (a, b) => {
   // your code here
