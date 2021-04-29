@@ -14,9 +14,9 @@ const removeNthElement = (index, array) => {
   array.splice(index, 1);
 };
 
-const numbersToStrings = numbers => {
-  // your code here
-};
+const numbersToStrings = numbers => numbers.map(num => {
+  return num.toString();
+});
 
 const uppercaseWordsInArray = strings => {
   // your code here
