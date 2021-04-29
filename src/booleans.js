@@ -14,9 +14,7 @@ const isEqual = (a, b) => a === b;
 
 const isGreaterThan = (a, b) => a > b;
 
-const isLessThanOrEqualTo = (a, b) => {
-  // your code here
-};
+const isLessThanOrEqualTo = (a, b) => a <= b;
 
 const isOdd = a => {
   // your code here
