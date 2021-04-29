@@ -106,7 +106,7 @@ describe("reverseWordsInArray", () => {
 });
 
 describe("onlyEven", () => {
-  xit("filters the array and only returns even numbers", () => {
+  it("filters the array and only returns even numbers", () => {
     expect(onlyEven([1, 2, 3, 4, 5, 6, 7, 8])).toEqual([2, 4, 6, 8]);
   });
 });

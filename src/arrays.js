@@ -26,9 +26,7 @@ const reverseWordsInArray = strings => strings.map(string => {
   return string.split("").reverse().join("");
 });
 
-const onlyEven = numbers => {
-  // your code here
-};
+const onlyEven = numbers => numbers.filter(number => !(number%2));
 
 const removeNthElement2 = (index, array) => {
   // your code here
