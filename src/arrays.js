@@ -34,9 +34,7 @@ const elementsStartingWithAVowel = strings => strings.filter(string => /[aeiou]/
 
 const removeSpaces = string => string.split(" ").join("");
 
-const sumNumbers = numbers => {
-  // your code here
-};
+const sumNumbers = numbers => numbers.reduce((acc, val) => acc + val);
 
 const sortByLastLetter = strings => {
   // your code here
