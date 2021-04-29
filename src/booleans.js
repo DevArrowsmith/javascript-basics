@@ -10,9 +10,7 @@ const one = (a, b) => a !== b;
 
 const truthiness = a => Boolean(a);
 
-const isEqual = (a, b) => {
-  // your code here
-};
+const isEqual = (a, b) => a === b;
 
 const isGreaterThan = (a, b) => {
   // your code here
