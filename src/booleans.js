@@ -26,9 +26,7 @@ const startsWith = (char, string) => string[0] === char;
 
 const containsVowels = string => /[aeiou]/gi.test(string);
 
-const isLowerCase = string => {
-  // your code here
-};
+const isLowerCase = string => string.toLowerCase() === string;
 
 module.exports = {
   negate,
