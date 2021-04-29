@@ -17,13 +17,9 @@ const getAges = people => people.map(person => person.age);
 
 const findByName = (name, people) => people.filter(person => person.name === name)[0];
 
-const findHondas = cars => {
-  // your code here
-};
+const findHondas = cars => cars.filter(car => car.manufacturer === "Honda");
 
-const averageAge = people => {
-  // your code here
-};
+const averageAge = people => Math.round(people.reduce((total, person) => total + ((person.age/people.length)), 0));
 
 const createTalkingPerson = (name, age) => {
   // your code here
