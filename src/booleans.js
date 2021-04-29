@@ -8,9 +8,7 @@ const none = (a, b) => !a && !b;
 
 const one = (a, b) => a !== b;
 
-const truthiness = a => {
-  // your code here
-};
+const truthiness = a => Boolean(a);
 
 const isEqual = (a, b) => {
   // your code here
