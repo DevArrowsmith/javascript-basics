@@ -25,14 +25,14 @@ describe("getNthElement", () => {
     expect(getNthElement(3, array)).toEqual("fox");
   });
 
-  xit("if n is greater than the number of elements, it cycles back to the start", () => {
+  it("if n is greater than the number of elements, it cycles back to the start", () => {
     expect(getNthElement(4, array)).toEqual("cat");
     expect(getNthElement(5, array)).toEqual("dog");
   });
 });
 
 describe("arrayToCSVString", () => {
-  xit("returns the array elements as a comma-seperated string", () => {
+  it("returns the array elements as a comma-seperated string", () => {
     expect(arrayToCSVString(["a", "b", "c", "d"])).toEqual("a,b,c,d");
     expect(arrayToCSVString([1, 2, 3, 4, 5])).toEqual("1,2,3,4,5");
   });

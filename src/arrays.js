@@ -1,8 +1,6 @@
-const getNthElement = (index, array) => array[index];
+const getNthElement = (index, array) => array[index%(array.length)];
 
-const arrayToCSVString = array => {
-  // your code here
-};
+const arrayToCSVString = array => array.join();
 
 const csvStringToArray = string => {
   // your code here
