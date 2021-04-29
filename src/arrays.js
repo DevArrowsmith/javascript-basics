@@ -36,9 +36,7 @@ const removeSpaces = string => string.split(" ").join("");
 
 const sumNumbers = numbers => numbers.reduce((acc, val) => acc + val);
 
-const sortByLastLetter = strings => {
-  // your code here
-};
+const sortByLastLetter = strings => strings.sort((a, b) => a.charCodeAt(a.length - 1) - b.charCodeAt(b.length - 1));
 
 module.exports = {
   getNthElement,
