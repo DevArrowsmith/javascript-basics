@@ -119,7 +119,7 @@ describe("isEven", () => {
 });
 
 describe("isSquare", () => {
-  xit("returns true if the number is a square", () => {
+  it("returns true if the number is a square", () => {
     expect(isSquare(9)).toEqual(true);
     expect(isSquare(5)).toEqual(false);
     expect(isSquare(-4)).toEqual(false);

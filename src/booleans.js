@@ -20,9 +20,7 @@ const isOdd = a => Boolean(a%2);
 
 const isEven = a => !Boolean(a%2);
 
-const isSquare = a => {
-  // your code here
-};
+const isSquare = a => a >= 0 && !Boolean(Math.sqrt(a)%1);
 
 const startsWith = (char, string) => {
   // your code here
