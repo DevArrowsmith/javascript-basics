@@ -15,9 +15,7 @@ const isOver65 = person => person.age > 65;
 
 const getAges = people => people.map(person => person.age);
 
-const findByName = (name, people) => {
-  // your code here
-};
+const findByName = (name, people) => people.filter(person => person.name === name)[0];
 
 const findHondas = cars => {
   // your code here
