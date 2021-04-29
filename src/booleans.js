@@ -24,9 +24,7 @@ const isSquare = a => a >= 0 && !Boolean(Math.sqrt(a)%1);
 
 const startsWith = (char, string) => string[0] === char;
 
-const containsVowels = string => {
-  // your code here
-};
+const containsVowels = string => Boolean(string.match(/[aeiou]/gi));
 
 const isLowerCase = string => {
   // your code here
