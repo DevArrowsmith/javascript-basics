@@ -9,9 +9,7 @@ const getName = object => object.name;
 
 const getProperty = (property, object) => object[property];
 
-const hasProperty = (property, object) => {
-  // your code here
-};
+const hasProperty = (property, object) => object.hasOwnProperty(property);
 
 const isOver65 = person => {
   // your code here
