@@ -32,9 +32,7 @@ const removeNthElement2 = (index, array) => array.filter(element => array.indexO
 
 const elementsStartingWithAVowel = strings => strings.filter(string => /[aeiou]/gi.test(string[0]));
 
-const removeSpaces = string => {
-  // your code here
-};
+const removeSpaces = string => string.split(" ").join("");
 
 const sumNumbers = numbers => {
   // your code here
