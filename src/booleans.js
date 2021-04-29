@@ -18,9 +18,7 @@ const isLessThanOrEqualTo = (a, b) => a <= b;
 
 const isOdd = a => Boolean(a%2);
 
-const isEven = a => {
-  // your code here
-};
+const isEven = a => !Boolean(a%2);
 
 const isSquare = a => {
   // your code here
