@@ -1,6 +1,4 @@
-const getNthElement = (index, array) => {
-  // your code here
-};
+const getNthElement = (index, array) => array[index];
 
 const arrayToCSVString = array => {
   // your code here
