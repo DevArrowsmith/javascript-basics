@@ -120,7 +120,7 @@ describe("removeNthElement2", () => {
 });
 
 describe("elementsStartingWithAVowel", () => {
-  xit("returns elements starting with a vowel", () => {
+  it("returns elements starting with a vowel", () => {
     expect(
       elementsStartingWithAVowel([
         "apple",
@@ -153,7 +153,7 @@ describe("elementsStartingWithAVowel", () => {
     ).toEqual(["apple", "epple", "ipple", "opple", "upple"]);
   });
 
-  xit("is case insensitive", () => {
+  it("is case insensitive", () => {
     expect(
       elementsStartingWithAVowel([
         "Apple",

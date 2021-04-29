@@ -30,9 +30,7 @@ const onlyEven = numbers => numbers.filter(number => !(number%2));
 
 const removeNthElement2 = (index, array) => array.filter(element => array.indexOf(element) !== index);
 
-const elementsStartingWithAVowel = strings => {
-  // your code here
-};
+const elementsStartingWithAVowel = strings => strings.filter(string => /[aeiou]/gi.test(string[0]));
 
 const removeSpaces = string => {
   // your code here
