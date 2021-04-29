@@ -18,9 +18,9 @@ const numbersToStrings = numbers => numbers.map(num => {
   return num.toString();
 });
 
-const uppercaseWordsInArray = strings => {
-  // your code here
-};
+const uppercaseWordsInArray = strings => strings.map(string => {
+  return string.toUpperCase();
+});
 
 const reverseWordsInArray = strings => {
   // your code here
