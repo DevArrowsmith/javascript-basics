@@ -12,9 +12,7 @@ const truthiness = a => Boolean(a);
 
 const isEqual = (a, b) => a === b;
 
-const isGreaterThan = (a, b) => {
-  // your code here
-};
+const isGreaterThan = (a, b) => a > b;
 
 const isLessThanOrEqualTo = (a, b) => {
   // your code here
