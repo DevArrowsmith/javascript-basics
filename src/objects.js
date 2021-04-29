@@ -13,9 +13,7 @@ const hasProperty = (property, object) => object.hasOwnProperty(property);
 
 const isOver65 = person => person.age > 65;
 
-const getAges = people => {
-  // your code here
-};
+const getAges = people => people.map(person => person.age);
 
 const findByName = (name, people) => {
   // your code here

@@ -83,7 +83,7 @@ describe("isOver65", () => {
 });
 
 describe("getAges", () => {
-  xit("returns the ages of each person in the array", () => {
+  it("returns the ages of each person in the array", () => {
     const jim = {
       name: "Jim",
       age: 66
