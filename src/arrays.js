@@ -4,8 +4,8 @@ const arrayToCSVString = array => array.join();
 
 const csvStringToArray = string => string.split(",");
 
-const addToArray = (element, array) => {
-  // your code here
+const addToArray = (element, array) =>{ 
+  array.push(element);
 };
 
 const addToArray2 = (element, array) => {
