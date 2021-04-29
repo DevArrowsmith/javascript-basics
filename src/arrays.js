@@ -8,9 +8,7 @@ const addToArray = (element, array) =>{
   array.push(element);
 };
 
-const addToArray2 = (element, array) => {
-  // your code here
-};
+const addToArray2 = (element, array) => [...array, element];
 
 const removeNthElement = (index, array) => {
   // your code here
