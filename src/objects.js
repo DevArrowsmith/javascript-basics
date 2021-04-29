@@ -22,7 +22,13 @@ const findHondas = cars => cars.filter(car => car.manufacturer === "Honda");
 const averageAge = people => Math.round(people.reduce((total, person) => total + ((person.age/people.length)), 0));
 
 const createTalkingPerson = (name, age) => {
-  // your code here
+  return {
+    name: name,
+    age: age,
+    introduce: function(pal) {
+      return `Hi ${pal}, my name is ${this.name} and I am ${this.age}!`
+    }
+  }
 };
 
 module.exports = {
