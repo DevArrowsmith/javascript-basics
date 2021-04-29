@@ -28,9 +28,7 @@ const reverseWordsInArray = strings => strings.map(string => {
 
 const onlyEven = numbers => numbers.filter(number => !(number%2));
 
-const removeNthElement2 = (index, array) => {
-  // your code here
-};
+const removeNthElement2 = (index, array) => array.filter(element => array.indexOf(element) !== index);
 
 const elementsStartingWithAVowel = strings => {
   // your code here
