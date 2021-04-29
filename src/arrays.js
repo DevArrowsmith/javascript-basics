@@ -22,9 +22,9 @@ const uppercaseWordsInArray = strings => strings.map(string => {
   return string.toUpperCase();
 });
 
-const reverseWordsInArray = strings => {
-  // your code here
-};
+const reverseWordsInArray = strings => strings.map(string => {
+  return string.split("").reverse().join("");
+});
 
 const onlyEven = numbers => {
   // your code here
