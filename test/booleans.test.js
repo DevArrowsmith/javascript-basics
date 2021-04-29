@@ -51,7 +51,7 @@ describe("none", () => {
 });
 
 describe("one", () => {
-  xit("returns true if exactly one of the given values are true", () => {
+  it("returns true if exactly one of the given values are true", () => {
     expect(one(true, true)).toBe(false);
     expect(one(true, false)).toBe(true);
     expect(one(false, true)).toBe(true);
