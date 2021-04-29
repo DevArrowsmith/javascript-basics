@@ -128,7 +128,7 @@ describe("isSquare", () => {
 });
 
 describe("startsWith", () => {
-  xit("returns whether the given string starts with the given character", () => {
+  it("returns whether the given string starts with the given character", () => {
     expect(startsWith("a", "aardvark")).toBe(true);
     expect(startsWith("a", "qaardvark")).toBe(false);
     expect(startsWith("a", "Aardvark")).toBe(false);
